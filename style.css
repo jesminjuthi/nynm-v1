@@ -1,7 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Common styles */
 *{
     margin: 0;
     padding: 0;
     font-family: "Work Sans", sans-serif;
+}
+
+.container{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+/* hero style */
+
+.hero{
+    background-image: url('images/banner/banner1.png');
+    padding: 215px 0 165px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content{
+    text-align: right;
+}
+
+.hero-content h1{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.hero-content p{
+    width: 494px;
+    margin: 24px 0 32px auto;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.hero-content button{
+    color: #fff;
+    background-color: #F15B22;
+}
+
+.hero-content button:hover{
+    background-color: #fff;
+    color: #F15B22;
+    border: 1px solid #F15B22;
 }
